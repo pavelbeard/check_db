@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-checkdb',
-    version='1.0',
+    version='1.1',
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
@@ -15,9 +15,14 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 3.2.0',
-        'Framework :: Django :: 4.8.0',
-        'Framework :: Django :: 5.0.6',
+        'Framework :: Django :: 2.2',
+        'Framework :: Django :: 3.0',
+        'Framework :: Django :: 3.1',
+        'Framework :: Django :: 3.2',
+        'Framework :: Django :: 4.0',
+        'Framework :: Django :: 4.1',
+        'Framework :: Django :: 4.2',
+        'Framework :: Django :: 5.0',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',

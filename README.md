@@ -9,10 +9,25 @@ To install the package, run:
 ```bash
 pip install django-checkdb
 ```
+In settings.py write next stuff:
+
+```bash
+INSTALLED_APPS = [
+    ...other apps...,
+    'check_db',
+    ...,
+]
+```
+
+## Check availability
+
+```bash
+python manage.py checkdb --database
+```
 
 ## Version
 
-Current version: 1.0
+Current version: 1.1
 
 ## Updates
 
