@@ -22,7 +22,7 @@ INSTALLED_APPS = [
 ## Check availability
 
 ```bash
-python manage.py checkdb --database
+python manage.py checkdb --database <name>
 ```
 
 ## Version
